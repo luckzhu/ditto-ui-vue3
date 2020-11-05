@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60897e47-5bd0-4e15-9f8c-422e456a916a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+    <list default="true" id="60897e47-5bd0-4e15-9f8c-422e456a916a" name="Default Changelist" comment="更改s">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/pages/Document.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/pages/Document.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/pages/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/shared/TopNavigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/shared/TopNavigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604543646952</updated>
       <workItem from="1604543654757" duration="4285000" />
-      <workItem from="1604549301826" duration="8190000" />
+      <workItem from="1604549301826" duration="8968000" />
     </task>
     <task id="LOCAL-00001" summary="添加ts支持，添加vue-router">
       <created>1604545856257</created>
@@ -58,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604562002807</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="初步完成 Switch 组件逻辑">
+      <created>1604564606241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604564606241</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,24 +75,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加ts支持，添加vue-router" />
     <MESSAGE value="搭建官网骨架" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建官网骨架" />
+    <MESSAGE value="初步完成 Switch 组件逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步完成 Switch 组件逻辑" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604557954703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604557954703" />
-    <state x="558" y="111" key="CommitChangelistDialog2" timestamp="1604562001324">
+    <state x="558" y="111" key="CommitChangelistDialog2" timestamp="1604565335467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604562001324" />
+    <state x="558" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604565335467" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1604544014042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604544014042" />
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1604562004913">
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1604564607509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604562004913" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604564607509" />
   </component>
 </project>
