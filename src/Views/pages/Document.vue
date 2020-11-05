@@ -4,10 +4,18 @@
         <div class="main-container">
             <aside class="sidebar">
                 <ul>
-                    <li> <router-link to="/doc/switch">Switch</router-link> </li>
-                    <li> <router-link to="/doc/button">Button</router-link> </li>
-                    <li> <router-link to="/doc/dialog">Dialog</router-link> </li>
-                    <li> <router-link to="/doc/tabs">Tabs</router-link> </li>
+                    <li>
+                        <router-link to="/doc/switch">Switch</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/doc/button">Button</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/doc/dialog">Dialog</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/doc/tabs">Tabs</router-link>
+                    </li>
                 </ul>
             </aside>
             <main class="main">
@@ -29,9 +37,10 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .document {
         .main-container {
+            height: 100%;
             .sidebar {
                 position: fixed;
                 top: 0;
@@ -49,8 +58,7 @@
                 margin-left: 200px;
                 padding: 20px;
                 border: 1px solid #ddd;
-                width: 100%;
-                min-height: 100%;
+                min-height: calc(100vh - 64px);
             }
         }
     }
