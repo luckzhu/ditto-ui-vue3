@@ -1,0 +1,3 @@
+<template>
+    Test demo
+</template>
